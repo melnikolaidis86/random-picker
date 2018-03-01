@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="el">
+  <head>
+    <title>Random Picker</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+
+    <!-- Material Kit CSS -->
+    <link rel="stylesheet" href="./assets/css/material-kit.css">
+    
+    <style type="text/css">
+      
+        p {
+            
+            font-size: 1.1rem;
+        }
+        
+        h4 {
+            
+            font-size: 1.5rem;
+        }
+
+        
+    </style>
+
+  </head>
+  <body>
+    <div class="container">
+        <div class="card card-nav-tabs mt-5">
+          <div class="card-header card-header-info text-center">
+            <h4>Τυχαία Επιλογή</h4>
+          </div>
+          <div class="card-body pt-5">
+            <h4 class="card-title mb-3">Επιλογή τυχαίου σπουδαστή</h4>
+            <p class="card-text text-muted mb-3">Πατήστε το παρακάτω κουμπί για να επιλέξετε τυχαία ενα φοιτητή.</p>
+            <h4 class="card-text mb-3">Το αποτέλεσμα είναι:<span class="text-info ml-3" id="pickResult"></span></h4>
+            <button type="button" id="pickButton" class="btn btn-primary mx-auto mt-5 d-block w-25">Επιλογή</button>
+          </div>
+        </div>
+    </div>
+    <!--   Core JS Files   -->
+    <script src="./assets/js/core/jquery.min.js"></script>
+    <script src="./assets/js/core/popper.min.js"></script>
+    <script src="./assets/js/bootstrap-material-design.js"></script>
+    <script src="./assets/js/script.js"></script>
+
+    <!-- Plugin for Date Time Picker and Full Calendar Plugin-->
+    <script src="./assets/js/plugins/moment.min.js"></script>
+
+    <!-- Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+    <script src="./assets/js/plugins/bootstrap-datetimepicker.min.js"></script>
+
+    <!-- Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+    <script src="./assets/js/plugins/nouislider.min.js"></script>
+
+    <!-- Material Kit Core initialisations of plugins and Bootstrap Material Design Library -->
+    <script src="./assets/js/material-kit.js?v=2.0.0"></script>
+
+  </body>
+</html>
